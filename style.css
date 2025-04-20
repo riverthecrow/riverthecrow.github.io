@@ -13,3 +13,9 @@ div.absolute {
   right: 1000px;
   width: 300px;
 }
+
+div.relative {
+  position: relative;
+  up: 20px;
+  right: 1000px;
+}
