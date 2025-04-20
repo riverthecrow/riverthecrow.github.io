@@ -16,6 +16,6 @@ div.absolute {
 
 div.relative {
   position: relative;
-  up: 20px;
+  bottom: 20px;
   right: 1000px;
 }
