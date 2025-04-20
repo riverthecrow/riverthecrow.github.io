@@ -6,19 +6,15 @@ body {
   background-image: url("background.jpg");
 }
 /*Centering Elements*/
-         .parent {
+        .parent {
          height: 400px;
          width: 400px;
          border:2px solid red;
          display: grid;
+         place-items: center;
          }
          .child {
          height: 100px;
          width: 100px;
-         background-color: red;
-         margin: auto;
-           opacity: 0;
-           border: 2px;
-           border-color: white;
-           color: white;
+         background-color: lightgreen;
          }
