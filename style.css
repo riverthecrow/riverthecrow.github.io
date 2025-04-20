@@ -1,16 +1,1 @@
 
-.box {
-opacity:0;
-border:3px solid;
-padding: 8px;
-border-radius: 10px;
-font-size:1.5vw;
-display:flex;
-flex-direction: row;
-max-width: 120vw;
-background-color: rgba(197, 29, 29, 0.50);
-align-items: center;
-color: white;
-animation: fadeInUp 1s ease forwards;
-transform: translateY(20px);
-}
