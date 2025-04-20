@@ -1,19 +1,13 @@
-.right {
-  float: right;
-  width: 300px;
-}
 
-    
-div.promo {
-  position: absolute; bottom:10;
-  width: 300px;
+.box {
+opacity:0;
+border:3px solid;
+padding: 8px;
+border-radius: 10px;
+font-size:1.5vw;
+display:flex;
+flex-direction: row;
+max-width: 120vw;
+background-color: rgba(197, 29, 29, 0.50);
+align-items: center;
 }
-
-div.webembed {
-  position: absolute; 
-    width: 300px;
-}
-
- body {
-      background-image: url('background.jpg');
-    }
