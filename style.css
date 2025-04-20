@@ -1,11 +1,19 @@
-
-
 .right {
   float: right;
   width: 300px;
 }
 
-.relative {
-  position: relative;
-  bottom: 50px;
+    
+div.promo {
+  position: absolute; bottom:10;
+  width: 300px;
 }
+
+div.webembed {
+  position: absolute; 
+    width: 300px;
+}
+
+ body {
+      background-image: url('https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-12-full.jpg');
+    }
