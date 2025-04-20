@@ -31,3 +31,22 @@ color: white;
   justify-content: center;
   align-items: center;
 }
+    .socials{
+         position: fixed;
+        }
+    .pfp{
+        border: 3px;
+        border-color: red;
+        position: absolute;
+        right: 68%;
+        top: 5%;
+        border-radius: 50%;
+            }
+    .avatar {
+ border: 5px;
+border-color: lightgrey; 
+        vertical-align: middle;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+        }
