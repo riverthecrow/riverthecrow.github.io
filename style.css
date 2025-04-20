@@ -2,9 +2,9 @@
 .poppins{
   font-family: Poppins;
 }
-body {
+/* body {
   background-image: url("background.jpg");
-}
+} */
 /*Centering Elements*/
         .parent {
          height: 400px;
