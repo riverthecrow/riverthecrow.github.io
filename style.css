@@ -11,4 +11,6 @@ max-width: 120vw;
 background-color: rgba(197, 29, 29, 0.50);
 align-items: center;
 color: white
+animation: fadeInUp 1s ease forwards;
+transform: translateY(20px);
 }
