@@ -2,19 +2,19 @@
 .poppins{
   font-family: Poppins;
 }
-/* body {
+ body {
   background-image: url("background.jpg");
-} */
+} 
 /*Centering Elements*/
-        .parent {
-         height: 400px;
-         width: 400px;
-         border:2px solid red;
-         display: grid;
-         place-items: center;
-         }
-         .child {
-         height: 100px;
-         width: 100px;
-         background-color: lightgreen;
-         }
+.div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+} 
+.poppins{ 
+color: white;
+}
