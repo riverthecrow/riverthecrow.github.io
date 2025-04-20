@@ -31,16 +31,13 @@
            <a href="https://bsky.app/profile/riverthecrow.bsky.social" target="_blank"> Bluesky </a> <p>-</p>
                <a href="https://youtube.com/channel/UC_4p9JVhJjCMidh-EtRKDg" target="_blank"> Youtube</a>
 
-      <!-- (A) AUDIO TAG -->
-<audio src="Emei - Scatterbrain.mp3" id="bgm" autoplay></audio>
+ 
+<audio src="Emei - /riverthecrow.github.io/Scatterbrain.mp3" id="bgm" autoplay></audio>
  
 <script>
-// (B) GET AUDIO TAG + DEFINE PLAYLIST
 let audio = document.getElementById("bgm"),
-    playlist = ["Emei - Scatterbrain.mp3", "femtanyl x issbrokie - NASTYWERKKKK.mp3", "femtanyl - I MIGHT B3 SICK.mp3"],
+    playlist = ["/riverthecrow.github.io/Emei - Scatterbrain.mp3", "/riverthecrow.github.io/femtanyl x issbrokie - NASTYWERKKKK.mp3", "/riverthecrow.github.io/femtanyl - I MIGHT B3 SICK.mp3"],
     current = 0;
- 
-// (C) AUTO LOAD NEXT SONG
 audio.onended = () => {
   current++;
   if (current >= playlist.length) { current = 0; }
