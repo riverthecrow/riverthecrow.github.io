@@ -43,7 +43,7 @@ color: white;
         top: 15%;
         border-radius: 50%;
             }
-    .avatar {
+    #avatar {
          border: 3px solid red;
         border-color: red;  
       vertical-align: middle;
@@ -51,4 +51,7 @@ color: white;
   height: 300px;
   border-radius: 50%;
         }
+  #avatar:hover {
+  transform: scale(1.05);
+}
 
