@@ -6,6 +6,8 @@
   background-image: url("background.jpg");
 } 
 /*Centering Elements*/
+ 
+ 
 .container {
 display: flex;
 justify-content: center;
@@ -40,6 +42,9 @@ border-radius: 10px;
         right: 68%;
         top: 15%;
         border-radius: 50%;
+         animation-name: pulse;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
             }
     #avatar {
          border: 3px solid red;
@@ -48,17 +53,11 @@ border-radius: 10px;
   width: 300px;
   height: 300px;
   border-radius: 50%;
+                animation: pulse 2s infinite;
         }
-  /*.avatar:hover {
-  transform: scale(1.05);
-} */
-  .avatar:    {  
-   box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-        animation: pulse 2s infinite;
-              }
+  /*.pfp:hover {
+  transform: scale(1.10);*/
+} 
   #gay {
   font-size: 2vw;
   background: linear-gradient(45deg, black, red, violet);
@@ -90,15 +89,35 @@ border-radius: 10px;
   cursor: pointer;
   transition: opacity 1s ease;
 }
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
+    .pulse-element {
+                position: absolute;
+        right: 68%;
+        top: 15%;
+        border-radius: 50%;
+     animation: pulse 1s infinite;
+        border: 3px solid red;
+        border-color: red;  
+      vertical-align: middle;
+  width: 300px;
+  height: 300px;
+        
 }
- 
+ @keyframes pulse{
+      from{
+       scale: 0.9;
+      }
+
+      to{
+       scale: 1.0;
+      }
+      from{
+        box-shadow: 0 0 0 0 rgba(198, 182, 179, 0.85);
+      }
+
+      to{
+        box-shadow: 0 0 0 30px rgba(201, 48, 48, 0);
+      }
+  }
+.pulse {
+    animation: pulse 2s infinite;
+    }
