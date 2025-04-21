@@ -30,7 +30,7 @@ border-radius: 10px;
 }
     .socials{
         position: fixed;
-      bottom: 600px;
+      bottom: 80%;
         display: flex;
   justify-content: center;
   align-items: center; 
