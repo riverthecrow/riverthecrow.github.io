@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     let currentVolume = volumeControl.value;
 
     try {
-        const songRes = await fetch('/assets/songs.json');
+        const songRes = await fetch('songs.json');
         const data = await songRes.json();
         songs = Object.keys(data);
         songNames = data;
