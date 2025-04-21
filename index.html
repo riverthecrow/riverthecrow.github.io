@@ -34,19 +34,8 @@
  
 <audio src="Emei-Scatterbrain.mp3" id="bgm" autoplay></audio>
  
-<script>
-let audio = document.getElementById("bgm"),
-    playlist = ["Emei-Scatterbrain.mp3", "femtanylxissbrokie-NASTYWERKKKK.mp3", "femtanyl-IMIGHTB3SICK.mp3"],
-    current = 0;
-audio.onended = () => {
-  current++;
-  if (current >= playlist.length) { current = 0; }
-  audio.src = playlist[current];
-  audio.pause();
-  audio.load();
-  audio.play();
-};
-</script>
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-2e56a98b-4dc8-4d63-ae26-27b88baad822" data-elfsight-app-lazy></div>
   </body>
 
 </html>
