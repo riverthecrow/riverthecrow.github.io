@@ -1,45 +1,55 @@
 <!DOCTYPE html>
 <html>
-  
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=500px, initial-scale=1.5">
-    <script src="https://kit.fontawesome.com/401f5a8576.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="icon.ico" type="image/x-icon">
+    <head>
+         <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/icon.ico" type="image/x-icon">
     <title>
       river's attic
     </title>
-  </head>
-  
-  <body class="poppins">
-      
-    <div class="container">
-      <div class="center">
-        <div class="text">
-          <div id="overlay"> cl1ck 2 ent3r :3</div> 
-            <img src="avatar.png" alt="Avatar" class="pulse-element">
-            <strong>
-            <div id="gay"> River's Attic </div> <br> <br> im river, i make stuff sometimes. <br> <br> my projects: <br> nothing yet sorry, btw if you're annoyed by the music, there's a toggle coming soon
-          </strong>
-          <a href="https://discord.gg/t52QPxYCvj" target="_blank">
+    </head>
+    <body style=“background-color: #000000;”>
+        <div class="background"><div id="background"></div></div>
+        <div class="centered">
+            <div class="box"> 
+                <div class="text"> 
+                    <h1 id="gay">River's Attic</h1>
+                    <br>
+                    <h1> hi, im river. i sometimes make things.</h1>
+                   <h2> <a href="https://discord.gg/t52QPxYCvj" target="_blank">
             Join the Discord! 
-          </a>
+          </a> </h2>
+                    <br><h1 id="socials"> Follow my socials!</h1>
+                    <h2><a href="https://github.com/riverthecrow" target="_blank">Github</a>-<a href="https://bsky.app/profile/riverthecrow.bsky.social" target="_blank">Bluesky</a>-<a href="https://youtube.com/channel/UC_4p9JVhJjCMidh-EtRKDg" target="_blank">Youtube</a></h2> <br>
+                    <h1>my projects: </h1> 
+                    <h2>nothing uwu</h2>
  
+                </div>
+            </div>
         </div>
-      </div>
-      </div>
-<div class="socials"> 
-    <p class="pulse"> follow my socials! ------></p> <div></div>
-       <a href="https://github.com/riverthecrow" target="_blank"> Github </a> <p>-</p> 
-           <a href="https://bsky.app/profile/riverthecrow.bsky.social" target="_blank"> Bluesky </a> <p>-</p>
-               <a href="https://youtube.com/channel/UC_4p9JVhJjCMidh-EtRKDg" target="_blank"> Youtube</a>
-</div>
-<audio loop autoplay>
-    <source src="/audio/Emei - Scatterbrain.mp3" type="audio/mp3">
+        <img src="assets/avatar.png" id="avatar" class="pfp"> 
+        <script src="assets/three.r134.min.js"></script>
+<script src="assets/vanta.globe.min.js"></script>
+<script>
+VANTA.GLOBE({
+  el: "#background",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0xff0000,
+  size: 0.50,
+  backgroundColor: 0x0
+})
+</script>
+        <div id="overlay"> cl1ck 2 ent3r ._.</div>
+        <audio loop autoplay>
+    <source src="assets/odetari1.mp3" type="audio/mp3">
 </audio>
+    </body>
     <script src="script.js"></script>
-      
-  </body>
-
 </html>
