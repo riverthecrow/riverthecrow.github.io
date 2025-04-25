@@ -1,107 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
-.poppins{
+body, html {  
+  margin: 0;
+  padding: 0;
+  height: 100%;
+    width: 100%;
+  overflow: hidden;
   font-family: Silkscreen;
-}/*
- body {
-  background-image: url("background.jpg");
-} 
-/*Centering Elements*/
- 
- 
-.container {
+}
+.text {
+    font-family: Silkscreen;
+    margin: 0;
+    }
+#background {
+position: absolute;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    }
+.centered {
 display: flex;
 justify-content: center;
 align-items: center;
 height: 90vh; 
     }
- .center {
-width: 300px;
-background-color: rgba(245, 0, 45, 0.75);
-padding: 10px;
-height: 500px;
+.box { 
+    background-color: rgba(245, 0, 45, 0.75);
+padding: 1%;
+height: 87%;
 opacity: 0.9;
-max-width: 60vw;
-font-size: 1.5vw;
-border-radius: 10px;
-       
-}
-.text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-    .socials{
-        position: fixed;
-      float: bottom;
-        display: flex;
-  justify-content: center;
-  align-items: center; 
-        }
-    .pfp{
-        position: absolute;
-        right: 68%;
-        top: 15%;
-        border-radius: 50%;
-         animation-name: pulse;
-        animation-duration: 2s;
-        animation-iteration-count: infinite;
-            }
-    #avatar {
-         border: 3px solid red;
-        border-color: red;  
-      vertical-align: middle;
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-                animation: pulse 2s infinite;
-        }
-  /*.pfp:hover {
-  transform: scale(1.10);*/
-} 
-  #gay {
+width: 22.5%;
+border-radius: 3%;
+    font-size: 1.5vh;
+    }
+#gay {
   font-size: 2vw;
-  background: linear-gradient(45deg, black, red, violet);
+  background: linear-gradient(45deg, black, black, red, red);
   background-size: 400%;
   -webkit-background-clip: text;
   color: transparent;
   animation: rainbow 3s linear infinite;
-}
-
+    }
 @keyframes rainbow {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
- 
-#overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(11, 10, 10, 1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 10;
-  color: white;
-  font-size: 1.5vw;
-  cursor: pointer;
-  transition: opacity 1s ease;
-}
-    .pulse-element {
-                position: absolute;
-        right: 68%;
-        top: 15%;
-        border-radius: 50%;
-     animation: pulse 1s infinite;
-        border: 3px solid red;
-        border-color: red;  
-      vertical-align: middle;
-  width: 300px;
-  height: 300px;
-        
-}
+#avatar {
+    display: flex;
+    max-height: 40%;
+    max-width: 40%;
+    border-radius: 50%;
+    animation: pulse 1s infinite;
+    }
+.pfp {
+    position: absolute;
+    border: 0.4vh solid red;
+    bottom: 50%;
+    left: 10%;
+    }
  @keyframes pulse{
       from{
        scale: 0.9;
@@ -118,6 +77,25 @@ border-radius: 10px;
         box-shadow: 0 0 0 30px rgba(201, 48, 48, 0);
       }
   }
-.pulse {
-    animation: pulse 2s infinite;
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(11, 10, 10, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 15;
+  color: white;
+  font-size: 1.5vw;
+  cursor: pointer;
+  transition: opacity 1s ease;
+}
+#socials { 
+    animation: pulse 3s infinite;
+    }
+.box:hover {
+     transform: scale(1.01);
     }
