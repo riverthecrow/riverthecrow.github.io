@@ -1,14 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Doto:wght@100..900&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Press+Start+2P&family=Silkscreen:wght@400;700&family=VT323&display=swap');
+.silkscreen {
+    font-family: Silkscreen;
+    }
+.dotgothic16 {
+    font-family: DotGothic16;
+    }
+.doto {
+    font-family: Doto;
+    }
+.vt323 {
+font-family: VT323;
+}
+.pressstart2p {
+    font-family: "Press Start 2P";
+        }
+.k2d {
+    font-family: K2D;
+    }
 body, html {  
   margin: 0;
   padding: 0;
   height: 100%;
     width: 100%;
   overflow: hidden;
-  font-family: Silkscreen;
 }
 .text {
-    font-family: Silkscreen;
     margin: 0;
     }
 #background {
@@ -27,17 +43,19 @@ align-items: center;
 height: 90vh; 
     }
 .box { 
-    background-color: rgba(245, 0, 45, 0.75);
+    background: linear-gradient(225deg, yellow, white, purple, black);
+border: 0.5vh solid;
+    border-color: rgba(94, 94, 94, 0.8);
 padding: 1%;
 height: 87%;
-opacity: 0.9;
+opacity: 0.8;
 width: 22.5%;
 border-radius: 3%;
     font-size: 1.5vh;
     }
 #gay {
   font-size: 2vw;
-  background: linear-gradient(45deg, black, black, red, red);
+  background: linear-gradient(45deg, red, black, red, black);
   background-size: 400%;
   -webkit-background-clip: text;
   color: transparent;
